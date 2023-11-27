@@ -1,6 +1,6 @@
 *{margin: 0; padding: 0;}
 nav{background: rgb(41, 126, 165);}
-body{background: url(img/bg.svg) no-repeat;}
+body{background: url(../img/bg.svg) no-repeat;}
 main{
     height: 800px;
     display: flex;
