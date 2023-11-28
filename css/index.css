@@ -1,5 +1,5 @@
 *{margin: 0; padding: 0;}
-nav{background: rgb(41, 126, 165);}
+nav{background: rgb(41, 126, 165); height: 100%;}
 body{background: url(../bg.svg) no-repeat;}
 main{
     height: 800px;
