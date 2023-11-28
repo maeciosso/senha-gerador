@@ -6,6 +6,9 @@
 nav{
   background: paleturquoise
 }
+body{
+  background: url(../bg.svg);
+}
 .hide{display: none}
 .none{
   background: paleturquoise;
@@ -17,4 +20,7 @@ a{
   text-decoration: none;
   color: black;
   font-size: 22px
+}
+p{
+  font-size: 22px;
 }

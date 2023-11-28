@@ -69,7 +69,17 @@ a:hover{
 } #btn:hover{
     background-color: aquamarine;
     color: black;
-} #btn2:hover{
+}
+ #btn2:hover{
     background-color: aquamarine;
     color: black;
+}
+
+
+@media screen and (min-width: 768px){
+    h1{font-size: 50px;}
+    li{font-size: 60px;}
+
+    #gerador{width: 550px;height: 550px;}
+    #btn{width:60%; height: 70px; font-size: 40px;}
 }
