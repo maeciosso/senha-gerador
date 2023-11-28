@@ -9,7 +9,8 @@ nav{background: paleturquoise}
 .none{
   background: paleturquoise;
   position: absolute;
-  height: 130px
+  height: 100%;
+  width: 100%;
 }
 .hide{display: none}
-a{text-decoration: none; color: black; font-size: 22px}
+a{text-decoration: none; color: black; font-size: 28px}
