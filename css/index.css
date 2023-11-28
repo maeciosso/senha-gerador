@@ -1,8 +1,8 @@
 *{margin: 0; padding: 0;}
-nav{background: rgb(41, 126, 165); height: 100%;}
+nav{background: rgb(41, 126, 165);}
 body{background: url(../bg.svg) no-repeat;}
 main{
-    height: 800px;
+    height: 600px;
     display: flex;
     align-content: center;
 }
@@ -22,7 +22,7 @@ a:hover{
 }
 
 .none{
-    width: 100%;
+    width: 400px;
     height: 100%;
     background-color: rgb(41, 126, 165);
     position: absolute;
@@ -48,7 +48,6 @@ a:hover{
     text-align: center; 
     min-height: 250px;
     min-width:250px; 
-    max-width: 400px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -57,7 +56,7 @@ a:hover{
     border: 2px solid rgba(255, 255, 255, 1);
 }
 
-#btn{
+#btn, #btn2{
     width: 40%;
     height: 40px;
     border-radius: 10px;
@@ -68,6 +67,9 @@ a:hover{
     transition: .5s;
     color: rgb(211, 232, 250);
 } #btn:hover{
+    background-color: aquamarine;
+    color: black;
+} #btn2:hover{
     background-color: aquamarine;
     color: black;
 }
