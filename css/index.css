@@ -1,6 +1,6 @@
 *{margin: 0; padding: 0;}
 nav{background: rgb(41, 126, 165);}
-body{background: url(../img/bg.svg) no-repeat;}
+body{background: url(../bg.svg) no-repeat;}
 main{
     height: 800px;
     display: flex;
@@ -30,6 +30,14 @@ a:hover{
 }
 .hide{display: none;}
 
+#input-url{
+  background: transparent;
+  border-radius: 16px;
+  border: 2px solid white;
+  width: 80%;
+  font-size: 22px;
+  height: 25px
+}
 
 #menu{
     width: 50px; 
