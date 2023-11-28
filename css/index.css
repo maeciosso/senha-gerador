@@ -23,7 +23,7 @@ a:hover{
 
 .none{
     width: 400px;
-    height: 100px;
+    height: 100%;
     background-color: rgb(41, 126, 165);
     position: absolute;
     z-index: 1;
