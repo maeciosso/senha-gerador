@@ -3,11 +3,14 @@ const menu = document.getElementById("menu")
 const divMenu = document.getElementById("div")
 
 $btn.addEventListener("click", () => {
-        var length = 10,
-            charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*!@#$%^&*",
-            retVal = "";
+        let length = 8;
+        let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        let symbol = "@#$&+*:;!?£¢€¥^=%§"
+        let retVal = [];
         for (var i = 0, n = charset.length; i < length; ++i) {
-            retVal += charset.charAt(Math.floor(Math.random() * n));
+            retVal += (charset.charAt(Math.floor(Math.random() * n)) + symbol.charAt(Math.floor(Math.random() * n)))
+        } if(retVal < length){
+            retVal.pop()
         }
 
     let $ul = document.querySelector("ul")

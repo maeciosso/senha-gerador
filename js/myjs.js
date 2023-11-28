@@ -1,6 +1,7 @@
 alert("site feito para celulares")
 const $btn = document.getElementById("btn")
 let historicoNotas = []
+const divMenu = document.getElementById("div")
 
 $btn.addEventListener('click', function(){
     const nota1 = parseFloat(document.getElementById("1").value);
@@ -41,3 +42,7 @@ function atualizarNotas(){
         $ul.appendChild($li);
     })
 }
+
+menu.addEventListener("click", () => {
+    divMenu.classList.toggle("hide")
+})

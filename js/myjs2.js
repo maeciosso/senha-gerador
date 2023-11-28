@@ -1,6 +1,7 @@
 alert("site feito para celulares")
 const $btn = document.getElementById("btn")
 let historicoNotas = []
+const divMenu = document.getElementById("div")
 
 $btn.addEventListener('click', function(){
     const nota1 = parseFloat(document.getElementById("1").value);
@@ -30,12 +31,14 @@ function atualizarNotas(){
     historicoNotas.forEach(function (notaFinal) {
         let $li = document.createElement('li');
 
-        let resultado = "";
-        if(notaFinal){
-            resultado = "media anual de " + (notaFinal / 4) + " ponto(s)";
-        }
+        let resultado = "media anual de " + (notaFinal / 4) + " ponto(s)";
 
         $li.innerText = resultado
         $ul.appendChild($li);
     })
 }
+
+
+menu.addEventListener("click", () => {
+    divMenu.classList.toggle("hide")
+})
