@@ -5,12 +5,11 @@ const divMenu = document.getElementById("div")
 $btn.addEventListener("click", () => {
         let length = 8;
         let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-        let symbol = "@#$&+*:;!?"
+        let symbol = "@#$&+*:;!?£¢€¥^=%§"
         let retVal = [];
         for (var i = 0, n = charset.length; i < length; ++i) {
             retVal += (charset.charAt(Math.floor(Math.random() * n)) + symbol.charAt(Math.floor(Math.random() * n)))
-        }
- if(retVal < length){
+        } if(retVal < length){
             retVal.pop()
         }
 
